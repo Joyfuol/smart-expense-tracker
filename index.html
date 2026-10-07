@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMART-EXPENSE-TRACKER</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+
+     <h1>SMART-EXPENSE-TRACKER</h1>
+
+    </header>
+
+   <aside>
+       <nav>
+
+     </nav>
+    </aside>
+
+    <main>
+        <section>
+            <h2>Welcome back, Joyful👋</h2>
+            <p>Here's a quick overview of your finances</p>
+            <p>Current Balance</p>
+            <p>₦245,000.00</p>
+            <button >Add Transaction</button>
+        </section>
+
+        <section>
+            <article>
+                <p>Total Income</p>
+                <p> ₦500,000</p>
+            </article>
+                
+            <article>
+                <p>Total Expenses</p>
+                <p> ₦255,000</p>
+            </article>
+
+            <article>
+                <p>Balance</p>
+                <p> ₦245,000</p>
+            </article>
+        </section>
+        <section>
+            <h2>Expense Breakdown</h2>
+            <ul>
+                <li>
+                    <span>Food</span>
+                    <span>35%</span>
+                </li>
+                <li>
+                    <span>Transport</span>
+                    <span>20%</span>
+                </li>
+                <li>
+                    <span>Business</span>
+                    <span>30%</span>
+                </li>
+                <li>
+                    <span>Other</span>
+                    <span>15%</span>
+                </li>
+            </ul>
+            
+        </section>
+        <section>
+            <label for="search">Search transactions</label>
+            <input
+                type="text"
+                id="search"
+                name="search"
+                placeholder="Search transactions...">            
+                
+                <label for="transaction-filter">Filter by type</label>
+                <select id="transaction-filter" name="transaction-filter">
+                                    <option value="all">All</option>
+                                    <option value="income">Income</option>
+                                    <option value="expense">Expense</option>
+                </select>
+             
+        </section>
+        <section>
+            <h2>Recent Transactions</h2>
+            <table>
+                <thead>
+                   <tr>
+                     <th>Description</th>
+                    <th>Category</th>
+                    <th>Type</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                   </tr>
+                </thead>
+                <tbody>
+                 <tr>
+                    <td>Fabrics</td>
+                    <td>Business</td>
+                    <td>Expense</td>
+                    <td>₦25,000</td>
+                    <td>Oct 5</td>
+                 </tr>
+                 
+                 <tr>
+                    <td>Salary</td>
+                    <td>Income</td>
+                    <td>Income</td>
+                    <td>₦300,000 </td>
+                    <td>Oct 3</td>
+                 </tr>
+                </tbody>
+            </table>
+        </section>
+        
+    
+    
+    </main>
+
+    
+
+    
+
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
+
