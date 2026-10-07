@@ -33,11 +33,27 @@ border: none;
 border-radius: 6px;
 }
 
-/*table{
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
 }
 
-ul{
+th {
+background: #f5f5dc;
+color: #0f1117;
+padding: 12px 14px;
+text-align: start;
+}
+
+td {
+color:#f5f5dc ;
+padding:10px 16px ;
+border:1px solid #2a2e38 ;
+}
+
+/*ul{
 
 }
 
