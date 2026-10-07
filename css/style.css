@@ -53,14 +53,25 @@ padding:10px 16px ;
 border:1px solid #2a2e38 ;
 }
 
-/*ul{
-
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 label{
-
+font-size: 1rem;
+color:#f5f5dc ;
 }
 
 input{
+padding: 10px 16px;
+background: #2a2e38 ;
+color:#f5f5dc;
+border: 1px solid #3a3f4b;
+border-radius: 6px;
+}
 
-} */
+input:focus {
+    outline: 2px solid #f5f5dc;
+    border-color: #f5f5dc;
+}
