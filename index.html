@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SMART-EXPENSE-TRACKER</title>
+    <title>SMART EXPENSE TRACKER</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -44,27 +44,27 @@
 
     <main>
         <section id="dashboard" class="welcome-section">
-            <h2 class="sub-heading">Welcome back, Joyful👋</h2>
+            <h2 class="sub-heading">Welcome back, 👋</h2>
             <p>Here's a quick overview of your finances</p>
             <p class="balance-label">Current Balance</p>
-            <p class="balance-amount">₦245,000.00</p>
+            <p class="balance-amount">₦246,000.00</p>
             <button type="button" id="add-transaction-btn">Add Transaction</button>
         </section>
 
         <section class="summary-cards">
             <article>
                 <p class="card-label">Total Income</p>
-                <p class="card-amount">₦500,000.00</p>
+                <p class="card-amount">₦535,000.00</p>
             </article>
                 
             <article>
                 <p class="card-label">Total Expenses</p>
-                <p class="card-amount">₦255,000.00</p>
+                <p class="card-amount">₦288,000.00</p>
             </article>
 
             <article>
                 <p class="card-label">Balance</p>
-                <p class="card-amount">₦245,000.00</p>
+                <p class="card-amount">₦246,000.00</p>
             </article>
         </section>
         <section class="expense-breakdown">
@@ -73,7 +73,7 @@
                 <div class="expense-chart">
                     <div class="chart-center">
                         <p class="chart-label">Total Spent</p>
-                        <p class="chart-amount">₦255,000</p>
+                        <p class="chart-amount">₦288,000</p>
                     </div>
                 </div>
                 <ul class="expense-category-list">
@@ -124,38 +124,107 @@
         </div>
     </div>
 </section>
-        <section>
-            <h2 class="sub-heading">Recent Transactions</h2>
-            <table>
-                <thead>
-                   <tr>
-                     <th scope="col">Description</th>
+
+<section class="recent-transactions">
+    <h2 class="sub-heading">Recent Transactions</h2>
+
+    <div class="transactions-table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Description</th>
                     <th scope="col">Category</th>
                     <th scope="col">Type</th>
                     <th scope="col">Amount</th>
                     <th scope="col">Date</th>
-                   </tr>
-                </thead>
-                <tbody>
-                 <tr>
-                    <td>Fabrics</td>
-                    <td>Business</td>
-                    <td>Expense</td>
-                    <td>₦25,000.00</td>
-                    <td>Oct 5</td>
-                 </tr>
-                 
-                 <tr>
-                    <td>Salary</td>
-                    <td>Income</td>
-                    <td>Income</td>
-                    <td>₦300,000.00 </td>
-                    <td>Oct 3</td>
-                 </tr>
-                </tbody>
-            </table>
-        </section>
-        
+                </tr>
+            </thead>
+
+            
+<tbody>
+    <tr>
+        <td>Groceries</td>
+        <td>Food</td>
+        <td>Expense</td>
+        <td class="expense-amount">−₦25,000.00</td>
+        <td>Oct 1</td>
+    </tr>
+
+    <tr>
+        <td>Monthly Salary</td>
+        <td>Salary</td>
+        <td>Income</td>
+        <td class="income-amount">+₦300,000.00</td>
+        <td>Oct 2</td>
+    </tr>
+
+    <tr>
+        <td>Rent</td>
+        <td>Housing</td>
+        <td>Expense</td>
+        <td class="expense-amount">−₦120,000.00</td>
+        <td>Oct 3</td>
+    </tr>
+
+    <tr>
+        <td>Customer Payment</td>
+        <td>Business</td>
+        <td>Income</td>
+        <td class="income-amount">+₦85,000.00</td>
+        <td>Oct 4</td>
+    </tr>
+
+    <tr>
+        <td>Stock Purchase</td>
+        <td>Business</td>
+        <td>Expense</td>
+        <td class="expense-amount">−₦45,000.00</td>
+        <td>Oct 5</td>
+    </tr>
+
+    <tr>
+        <td>School Fees</td>
+        <td>Education</td>
+        <td>Expense</td>
+        <td class="expense-amount">−₦60,000.00</td>
+        <td>Oct 6</td>
+    </tr>
+
+    <tr>
+        <td>Internet Subscription</td>
+        <td>Utilities</td>
+        <td>Expense</td>
+        <td class="expense-amount">−₦12,000.00</td>
+        <td>Oct 7</td>
+    </tr>
+
+    <tr>
+        <td>Client Payment</td>
+        <td>Business</td>
+        <td>Income</td>
+        <td class="income-amount">+₦150,000.00</td>
+        <td>Oct 8</td>
+    </tr>
+
+    <tr>
+        <td>Transportation</td>
+        <td>Transport</td>
+        <td>Expense</td>
+        <td class="expense-amount">−₦8,000.00</td>
+        <td>Oct 9</td>
+    </tr>
+
+    <tr>
+        <td>Electricity Bill</td>
+        <td>Utilities</td>
+        <td>Expense</td>
+        <td class="expense-amount">−₦18,500.00</td>
+        <td>Oct 10</td>
+    </tr>
+</tbody>
+        </table>
+    </div>
+</section>
     
     
     </main>
