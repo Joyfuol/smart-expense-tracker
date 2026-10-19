@@ -1,3 +1,7 @@
+import Transaction from "./transaction.js";
+import ExpenseTracker from "./expenseTracker.js";
+
+
 
 const menuToggle = document.querySelector(".menu-toggle");
 const sidebarMenu = document.querySelector("#sidebar-menu");
@@ -22,3 +26,5 @@ if (menuToggle && sidebarMenu) {
     });
   });
 }
+
+
